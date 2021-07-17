@@ -88,7 +88,7 @@ top: 2em;
 }
 
 .input-field input{
-
+    max-width: 100%;
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.9);
     outline: none;
@@ -123,6 +123,7 @@ form input[type="submit"]{
     color: white;
     font-size: 1.3rem;
     transition: all 0.5s ease;
+    
 
 }
 form input[type="submit"]:hover{
