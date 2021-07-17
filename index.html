@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Black Friday - Uai Store!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script>
+
+
+        var nome,email;
+        if(typeof(storage) !="undefined"){
+        
+        }else{
+            document.write("");
+        
+        }
+        function gravar(){
+            nome=document.getElementById("nome").value;
+            email=document.getElementById("email").value;
+            
+            localStorage.nome=nome;
+            localStorage.email=email;
+          
+            
+        }
+        
+            </script>
+
+</head>
+<header>
+    <h2>
+        Uai Store!
+    </h2>
+        <p>
+        A "mió" loja!
+    </p>
+</header>
+    <nav>
+        <a class="" href="">Home</a>
+        <a href="">Produtos</a>
+        <a href="">Contato</a>
+    </nav>
+<body>
+    <center>
+<main class="container">
+    <h2>
+<strong> Para as  melhores ofertas cadastre-se!  </strong>
+</h2>
+    <form action="">
+        <div class="input-field">
+            <input type="text" name="nome" id="nome" placeholder="Preencha o seu Nome." required>
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="text" name="email" id="email" placeholder="Preencha o seu E-mail." required>
+            <div class="underline"></div>
+        </div>
+        <input type="submit" name="botao" id="botao"  onclick="gravar()">
+
+       </center>
+
+    </form>
+
+    
+</main>
+<center>
+    <main>
+    <h3>        PREPARE-SE PARA A MAIOR <BR>
+            BLACK FRIDAY! <br>
+            21-06-2021
+    </h3>
+    </center>
+</main>
+
+
+    
+</body>
+</html>
